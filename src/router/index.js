@@ -38,7 +38,7 @@ const routes = [
     component: Icons
   },
   {
-    path: '/Blog',
+    path: '/blog',
     name: 'Blog',
     component: Blog
   },
