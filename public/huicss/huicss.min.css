@@ -28,6 +28,10 @@ p, span, h1, h2, h3, h4, h5, h6 {
     border-color: rgb(145, 145, 255);
 }
 
+.hui-light:active {
+    background-color: rgb(235, 235, 235);
+}
+
 .hui-error {
     color: rgb(255, 0, 0);
     background-color: rgb(255, 145, 145);
@@ -131,4 +135,49 @@ p, span, h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255);
     font-size: 14px;
     margin: 5px 0px;
+}
+
+.editor {
+    border-radius: 15px;
+    margin: 5px;
+    background-color: rgb(235, 235, 235);    
+}
+
+.editorString {
+    padding: 15px;
+    width: 500px;
+}
+
+.editorBtn {
+    font-size: 8px;
+    float: right;
+    width: 35px;
+    height: 15px;
+}
+
+.headerOfBlock {
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.descOfBlock {
+    font-size: 24px;
+    color: rgb(175, 175, 175);
+}
+
+.subHeader {
+    font-size: 14px;
+}
+
+.supHeader {
+    font-size: 18px;
+}
+
+.hui-pad-25 {
+    margin-top: 25px;
+}
+
+.hui-picture {
+    width: 375px;
+    margin-left: 175px;
 }
