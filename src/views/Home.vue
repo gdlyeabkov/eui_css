@@ -1,21 +1,6 @@
 <template>
   <div>
-    <div class="hui-header">
-      <p class="hui-active hui-header-link">
-        huiCSS
-      </p>
-      <div class="hui-header-link-container">
-        <p class="hui-header-link">
-          Примеры
-        </p>
-        <p class="hui-header-link">
-          Документы
-        </p>
-        <p class="hui-header-link">
-          Скачать
-        </p>
-      </div>
-    </div>
+    <HuiHeader />
     <div class="hui-main">
       <button class="hui-button  hui-dark">Нажми меня</button>
       <button class="hui-button  hui-light">Нажми меня</button>
@@ -27,10 +12,10 @@
       <button class="hui-button hui-round-button hui-error"></button>
       <div style="margin-top: 25px; margin-left: 25px;">
         <div style="float: left; width: 55%;">
-          <p class="headerOfBlock">
+          <p class="hui-header-of-block">
             Строй удобно, сайты отвечающие ожиданиям с HuiCSS
           </p>
-          <p class="descOfBlock">
+          <p class="hui-desc-of-block">
             Быстро создавайте и настраивайте адаптивные сайты, ориентированные на мобильные устройства, с помощью HuiCSS, самого популярного в мире инструментария с открытым исходным кодом для интерфейса пользователя, включающего переменные и миксины Sass, адаптивную сеточную систему, обширные готовые компоненты и мощные плагины JavaScript.
           </p>
           <div style="margin: 15px;">
@@ -48,23 +33,23 @@
           </div>
           <div style="width: 100%; display: flex;">
             <div style="width: 35%;">
-              <p class="headerOfBlock">
+              <p class="hui-header-of-block">
                 Установка
               </p>
-              <p class="supHeader">
+              <p class="hui-supHeader">
                 Установите исходные файлы Sass и JavaScript Bootstrap через npm, Composer или Meteor.
               </p>
-              <p class="subHeader">
+              <p class="hui-sub-header">
                 Установки, управляемые пакетами, не включают в себя документацию или наши полные скрипты сборки. Вы также можете использовать репозиторий шаблонов npm для быстрого создания проекта Bootstrap через npm.
               </p>
             </div>
             <div>
-              <div class="editor">
-                <button class="editorBtn hui-button  hui-light">копия</button>
-                <p class="editorString">npm install bootstrap</p>
+              <div class="hui-editor">
+                <button class="hui-editor-btn hui-button  hui-light">копия</button>
+                <p class="hui-editor-string">npm install bootstrap</p>
               </div>
-              <div class="editor">
-                <button class="editorBtn hui-button  hui-light">копия</button>
+              <div class="hui-editor">
+                <button class="hui-editor-btn hui-button  hui-light">копия</button>
                 <p style="padding: 15px;">gem install bootstrap -v 5.1.1</p>
               </div>
             </div>
@@ -77,23 +62,23 @@
           </div>
           <div style="width: 100%; display: flex;">
             <div style="width: 35%;">
-              <p class="headerOfBlock">
+              <p class="hui-header-block">
                 jsDelivr
               </p>
-              <p class="supHeader">
+              <p class="hui-supHeader">
                 Когда вам нужно включить только скомпилированный CSS или JS Bootstrap, вы можете использовать jsDelivr.
               </p>
-              <p class="subHeader">
+              <p class="hui-sub-header">
                 Посмотрите, как это работает, с помощью нашего простого стартового шаблона или просмотрите примеры, чтобы начать свой следующий проект. Вы также можете включить Popper и наш JS по отдельности.
               </p>
             </div>
             <div>
-              <div class="editor">
-                <button class="editorBtn hui-button  hui-light">копия</button>
-                <p class="editorString">npm install bootstrap</p>
+              <div class="hui-editor">
+                <button class="hui-editor-btn hui-button  hui-light">копия</button>
+                <p class="hui-editor-string">npm install bootstrap</p>
               </div>
-              <div class="editor">
-                <button class="editorBtn hui-button  hui-light">копия</button>
+              <div class="hui-editor">
+                <button class="hui-editor-btn hui-button  hui-light">копия</button>
                 <p style="padding: 15px;">gem install bootstrap -v 5.1.1</p>
               </div>
             </div>
@@ -106,13 +91,13 @@
           </div>
           <div style="width: 100%; display: flex;">
             <div style="width: 35%;">
-              <p class="headerOfBlock">
+              <p class="hui-header-block">
                 HuiCSS иконки
               </p>
-              <p class="supHeader">
+              <p class="hui-supHeader">
                 Впервые в истории HuiCSS есть собственная библиотека значков SVG с открытым исходным кодом, предназначенная для наилучшей работы с нашими компонентами и документацией.
               </p>
-              <p class="subHeader">
+              <p class="hui-sub-header">
                 Иконки HuiCSS лучше всего работают с компонентами HuiCSS, но они будут работать в любом проекте. Это SVG-файлы, поэтому они легко и быстро масштабируются, могут быть реализованы несколькими способами и стилизованы с помощью CSS.
               </p>
             </div>
@@ -128,13 +113,13 @@
           </div>
           <div style="width: 100%; display: flex;">
             <div style="width: 35%;">
-              <p class="headerOfBlock">
+              <p class="hui-header-of-block">
                 Официальные темы
               </p>
-              <p class="supHeader">
+              <p class="hui-sup-header">
                 Поднимите HuiCss на новый уровень с премиальными темами с официального магазина Bootstrap Themes.
               </p>
-              <p class="subHeader">
+              <p class="hui-sub-header">
                 Темы создаются на HuiCss как собственные расширенные фреймворки, богатые новыми компонентами и плагинами, документацией и мощными инструментами сборки.
               </p>
             </div>
@@ -155,11 +140,13 @@
 </template>
 
 <script>
+import HuiHeader from "@/components/HuiHeader.vue"
 import HuiFooter from "@/components/HuiFooter.vue"
 
 export default {
   name: 'Home',
   components: {
+    HuiHeader,
     HuiFooter
   }
 }

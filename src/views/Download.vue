@@ -1,5 +1,6 @@
 <template>
     <div>
+        <HuiHeader />
         <div class="hui-aside">
             <p class="hui-aside-link">Примеры</p>
             <p class="hui-aside-link">Кнопки</p>
@@ -11,11 +12,13 @@
 </template>
 
 <script>
+import HuiHeader from "@/components/HuiHeader.vue"
 import HuiFooter from "@/components/HuiFooter.vue"
 
 export default {
     name: 'Download',
     components: {
+        HuiHeader,
         HuiFooter
     }
 }
