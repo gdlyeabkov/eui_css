@@ -14,6 +14,7 @@ p, span, h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     font-size: 18px;
     margin: 0px 5px;
+    cursor: pointer;
 }
 
 .hui-dark {
@@ -77,6 +78,7 @@ p, span, h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .hui-aside {
@@ -91,6 +93,7 @@ p, span, h1, h2, h3, h4, h5, h6 {
     margin: 15px 0px;
     text-align: center;
     text-decoration: underline; 
+    cursor: pointer;
 }
 
 .hui-active {

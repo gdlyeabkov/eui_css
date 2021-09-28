@@ -9,6 +9,8 @@ import Blog from '../views/Blog.vue'
 import Icons from '../views/Icons.vue'
 import Docs from '../views/Docs.vue'
 
+import Buttons from '../views/docs/Buttons.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -52,6 +54,12 @@ const routes = [
     name: 'Examples',
     component: Examples
   },
+  {
+    path: '/docs/buttons',
+    name: 'Buttons',
+    component: Buttons
+  },
+
   
 ]
 

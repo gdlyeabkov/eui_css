@@ -2,12 +2,7 @@
     <div>
         <HuiHeader />
         <HuiSearch />
-        <div class="hui-aside">
-            <p class="hui-aside-link">Примеры</p>
-            <p class="hui-aside-link">Кнопки</p>
-            <p class="hui-aside-link">Хедеры</p>
-            <p class="hui-aside-link">Стили</p>
-        </div>
+        <HuiAside />
         <div class="hui-main">
             <p class="hui-header-of-block">
                 Введение
@@ -219,6 +214,7 @@
 <script>
 import HuiHeader from "@/components/HuiHeader.vue"
 import HuiSearch from "@/components/HuiSearch.vue"
+import HuiAside from "@/components/HuiAside.vue"
 import HuiFooter from "@/components/HuiFooter.vue"
 
 export default {
@@ -226,6 +222,7 @@ export default {
     components: {
         HuiHeader,
         HuiSearch,
+        HuiAside,
         HuiFooter
     }
 }

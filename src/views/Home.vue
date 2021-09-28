@@ -2,14 +2,6 @@
   <div>
     <HuiHeader />
     <div class="hui-main">
-      <button class="hui-button  hui-dark">Нажми меня</button>
-      <button class="hui-button  hui-light">Нажми меня</button>
-      <button class="hui-button  hui-error">Нажми меня</button>
-      <button class="hui-button  hui-happy">Нажми меня</button>
-      <button class="hui-button hui-round-button hui-happy"></button>
-      <button class="hui-button hui-round-button hui-light"></button>
-      <button class="hui-button hui-round-button hui-dark"></button>
-      <button class="hui-button hui-round-button hui-error"></button>
       <div style="margin-top: 25px; margin-left: 25px;">
         <div style="float: left; width: 55%;">
           <p class="hui-header-of-block">

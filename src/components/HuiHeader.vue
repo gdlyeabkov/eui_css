@@ -1,6 +1,6 @@
 <template>
   <div class="hui-header">
-      <p class="hui-active hui-header-link">
+      <p @click="$router.push({ name: 'Home' })" class="hui-active hui-header-link">
         huiCSS
       </p>
       <div class="hui-header-link-container">
