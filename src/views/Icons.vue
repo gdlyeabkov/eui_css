@@ -8,12 +8,12 @@
             Иконки HuiCSS
           </p>
           <p class="hui-desc-of-block">
-            Бесплатная высококачественная библиотека значков с открытым исходным кодом, содержащая более 1300 значков. Включите их как хотите - SVG, спрайты SVG или веб-шрифты. Используйте их с Bootstrap или без него в любом проекте.
+            Бесплатная высококачественная библиотека значков с открытым исходным кодом, содержащая более 1300 значков. Включите их как хотите - SVG, спрайты SVG или веб-шрифты. Используйте их с HuiCSS или без него в любом проекте.
           </p>
           <div style="margin: 15px;">
             <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p class="hui-editor-string">npm i bootstrap-icons</p>
+                <p class="hui-editor-string">npm i HuiCSS-icons</p>
             </div>              
           </div>
           <p>Currently v5.1.1 · v4.6.x docs · All releases</p>
@@ -34,11 +34,11 @@
                     npm
                 </p>
                 <p class="hui-supHeader">
-                    Установите значки Bootstrap, включая SVG, спрайты значков и шрифты значков, с помощью npm. Затем выберите способ добавления значков в инструкции по использованию.
+                    Установите значки HuiCSS, включая SVG, спрайты значков и шрифты значков, с помощью npm. Затем выберите способ добавления значков в инструкции по использованию.
                 </p>
                 <div class="hui-editor">
                     <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                    <p class="hui-editor-string">npm install bootstrap</p>
+                    <p class="hui-editor-string">npm install HuiCSS</p>
                 </div>
                 
             </div>
@@ -60,11 +60,11 @@
                 </p>
                 <div class="hui-editor">
                     <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                    <p class="hui-editor-string">npm install bootstrap</p>
+                    <p class="hui-editor-string">npm install HuiCSS</p>
                 </div>
                 <div class="hui-editor">
                     <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                    <p class="hui-editor-string">npm install bootstrap</p>
+                    <p class="hui-editor-string">npm install HuiCSS</p>
                 </div>
               
             </div>
@@ -74,7 +74,7 @@
                     Использование
                 </p>
                 <p>
-                    Иконки HuiCSS - это SVG, поэтому вы можете включать их в свой HTML несколькими способами в зависимости от того, как настроен ваш проект. Значки Bootstrap по умолчанию имеют ширину и высоту 1em, что позволяет легко изменять размер с помощью font-size.
+                    Иконки HuiCSS - это SVG, поэтому вы можете включать их в свой HTML несколькими способами в зависимости от того, как настроен ваш проект. Значки HuiCSS по умолчанию имеют ширину и высоту 1em, что позволяет легко изменять размер с помощью font-size.
                 </p>
           </div>
         </div>
@@ -88,7 +88,7 @@
                 jsDelivr
               </p>
               <p class="hui-supHeader">
-                Когда вам нужно включить только скомпилированный CSS или JS Bootstrap, вы можете использовать jsDelivr.
+                Когда вам нужно включить только скомпилированный CSS или JS HuiCSS, вы можете использовать jsDelivr.
               </p>
               <p class="hui-sub-header">
                 Посмотрите, как это работает, с помощью нашего простого стартового шаблона или просмотрите примеры, чтобы начать свой следующий проект. Вы также можете включить Popper и наш JS по отдельности.
@@ -97,11 +97,11 @@
             <div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p class="hui-editor-string">npm install bootstrap</p>
+                <p class="hui-editor-string">npm install HuiCSS</p>
               </div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p style="padding: 15px;">gem install bootstrap -v 5.1.1</p>
+                <p style="padding: 15px;">gem install HuiCSS -v 5.1.1</p>
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@
                 Официальные темы
               </p>
               <p class="hui-sup-header">
-                Поднимите HuiCss на новый уровень с премиальными темами с официального магазина Bootstrap Themes.
+                Поднимите HuiCss на новый уровень с премиальными темами с официального магазина HuiCSS Themes.
               </p>
               <p class="hui-sub-header">
                 Темы создаются на HuiCss как собственные расширенные фреймворки, богатые новыми компонентами и плагинами, документацией и мощными инструментами сборки.

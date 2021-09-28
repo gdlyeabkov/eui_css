@@ -1,10 +1,10 @@
 <template>
-  <div style="box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); margin-bottom: 15px; display: flex; justify-content: space-between; width: 100%; height: 25px;">
-    <input type="text" placeholder="" style="border-radius: 15px; border-color: rgb(215, 215, 215);" />
-    <select style="padding: 5px 15px; border-radius: 5px; border-color: rgb(215, 215, 215);">
-        <option value="asd">HuiCSS 1</option>
-        <option value="dsa">HuiCSS 2</option>
-        <option value="dsa">HuiCSS 3</option>
+  <div class="hui-search-block">
+    <input type="text" placeholder="" class="hui-search-field" />
+    <select class="hui-dropdown">
+        <option value="HuiCSS 1">HuiCSS 1</option>
+        <option value="HuiCSS 2">HuiCSS 2</option>
+        <option value="HuiCSS 3">HuiCSS 3</option>
     </select>
   </div>
 </template>

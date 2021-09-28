@@ -1,19 +1,23 @@
 <template>
     <div class="hui-aside">
-        <div @click="" style="display: flex;">
-            <span v-if="true" style="align-self: center;" class="material-icons">
+        <div @click="inputsToggler = !inputsToggler" class="hui-touch">
+            <span v-if="!inputsToggler" class="material-icons hui-margin-center">
                 chevron_right
             </span>
-            <span v-else style="align-self: center;" class="material-icons">
+            <span v-else class="material-icons hui-margin-center">
                 expand_more
             </span>
-            <p class="hui-aside-link">Примеры</p>
+            <p class="hui-aside-link">Поля ввода</p>
         </div>
-        <div @click="buttonsToggler = !buttonsToggler" style="display: flex;">
-            <span v-if="!buttonsToggler" style="align-self: center;" class="material-icons">
+        <div v-if="inputsToggler">
+            <p @click="$router.push({ path: '/docs/inputs#field' })" class="hui-aside-link">Поле ввода</p>
+            <p @click="$router.push({ path: '/docs/inputs#dropdown' })" class="hui-aside-link">Выпадающий список</p>
+        </div>
+        <div @click="buttonsToggler = !buttonsToggler" class="hui-touch">
+            <span v-if="!buttonsToggler" class="material-icons hui-margin-center">
                 chevron_right
             </span>
-            <span v-else style="align-self: center;" class="material-icons">
+            <span v-else class="material-icons hui-margin-center">
                 expand_more
             </span>
             <p class="hui-aside-link">Кнопки</p>
@@ -30,17 +34,33 @@
             <p @click="$router.push({ path: '/docs/buttons#redroundbtn' })" class="hui-aside-link">Круглая красная кнопка</p>
             <p @click="$router.push({ path: '/docs/buttons#greenroundbtn' })" class="hui-aside-link">Круглая зелёная кнопка</p>
         </div>
-        <div style="display: flex;">
-            <span style="align-self: center;" class="material-icons">
+        <div @click="componentsToggler = !componentsToggler" class="hui-touch">
+            <span v-if="!componentsToggler" class="material-icons hui-margin-center">
                 chevron_right
             </span>
-            <p class="hui-aside-link">Хедеры</p>
+            <span v-else class="material-icons hui-margin-center">
+                expand_more
+            </span>
+            <p class="hui-aside-link">Компоненты</p>
         </div>
-        <div style="display: flex;">
-            <span style="align-self: center;" class="material-icons">
+        <div v-if="componentsToggler">
+            <p @click="$router.push({ path: '/docs/components#components' })" class="hui-aside-link">Компоненты</p>
+            <p @click="$router.push({ path: '/docs/components#header' })" class="hui-aside-link">Хедер</p>
+            <p @click="$router.push({ path: '/docs/components#search' })" class="hui-aside-link">Поиск</p>
+            <p @click="$router.push({ path: '/docs/components#aside' })" class="hui-aside-link">Эсайд</p>
+            <p @click="$router.push({ path: '/docs/components#footer' })" class="hui-aside-link">Футер</p>
+        </div>
+        <div @click="layoutsToggler = !layoutsToggler"  class="hui-touch">
+            <span v-if="!layoutsToggler" class="material-icons hui-margin-center">
                 chevron_right
             </span>
-            <p class="hui-aside-link">Стили</p>
+            <span v-else class="material-icons hui-margin-center">
+                expand_more
+            </span>
+            <p class="hui-aside-link">Макеты</p>
+        </div>
+        <div v-if="layoutsToggler">
+            <p @click="$router.push({ path: '/docs/layouts#picture' })" class="hui-aside-link">Макет с картинкой</p>
         </div>
     </div>
 </template>
@@ -50,9 +70,10 @@ export default {
     name: 'HuiAside',
     data(){
         return {
-            examplesToggler: false,
+            inputsToggler: false,
             buttonsToggler: false,
-            headersToggler: false,
+            componentsToggler: false,
+            layoutsToggler: false
         }
     }
 }

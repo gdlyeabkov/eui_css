@@ -10,6 +10,9 @@ import Icons from '../views/Icons.vue'
 import Docs from '../views/Docs.vue'
 
 import Buttons from '../views/docs/Buttons.vue'
+import Components from '../views/docs/Components.vue'
+import Inputs from '../views/docs/Inputs.vue'
+import Layouts from '../views/docs/Layouts.vue'
 
 Vue.use(VueRouter)
 
@@ -59,6 +62,23 @@ const routes = [
     name: 'Buttons',
     component: Buttons
   },
+  {
+    path: '/docs/components',
+    name: 'Components',
+    component: Components
+  },
+  {
+    path: '/docs/inputs',
+    name: 'Inputs',
+    component: Inputs
+  },
+  {
+    path: '/docs/layouts',
+    name: 'Layouts',
+    component: Layouts
+  },
+  
+  
 
   
 ]

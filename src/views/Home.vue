@@ -21,28 +21,28 @@
         
         <div style="clear: both;"></div>
         <div class="hui-pad-25">
-          <div style="margin-left: 25px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Internet_Explorer_10%2B11_logo.svg/1200px-Internet_Explorer_10%2B11_logo.svg.png'); background-size: 100% 100%; float: left; width: 75px; height: 75px;">
+          <div class="hui-picture-layout">
           </div>
-          <div style="width: 100%; display: flex;">
-            <div style="width: 35%;">
+          <div class="hui-part">
+            <div class="hui-part-of-layout">
               <p class="hui-header-of-block">
                 Установка
               </p>
               <p class="hui-supHeader">
-                Установите исходные файлы Sass и JavaScript Bootstrap через npm, Composer или Meteor.
+                Установите исходные файлы Sass и JavaScript HuiCSS через npm, Composer или Meteor.
               </p>
               <p class="hui-sub-header">
-                Установки, управляемые пакетами, не включают в себя документацию или наши полные скрипты сборки. Вы также можете использовать репозиторий шаблонов npm для быстрого создания проекта Bootstrap через npm.
+                Установки, управляемые пакетами, не включают в себя документацию или наши полные скрипты сборки. Вы также можете использовать репозиторий шаблонов npm для быстрого создания проекта HuiCSS через npm.
               </p>
             </div>
             <div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p class="hui-editor-string">npm install bootstrap</p>
+                <p class="hui-editor-string">npm install HuiCSS</p>
               </div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p style="padding: 15px;">gem install bootstrap -v 5.1.1</p>
+                <p class="hui-indent">gem install HuiCSS -v 5.1.1</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
                 jsDelivr
               </p>
               <p class="hui-supHeader">
-                Когда вам нужно включить только скомпилированный CSS или JS Bootstrap, вы можете использовать jsDelivr.
+                Когда вам нужно включить только скомпилированный CSS или JS HuiCSS, вы можете использовать jsDelivr.
               </p>
               <p class="hui-sub-header">
                 Посмотрите, как это работает, с помощью нашего простого стартового шаблона или просмотрите примеры, чтобы начать свой следующий проект. Вы также можете включить Popper и наш JS по отдельности.
@@ -67,11 +67,11 @@
             <div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p class="hui-editor-string">npm install bootstrap</p>
+                <p class="hui-editor-string">npm install HuiCSS</p>
               </div>
               <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p style="padding: 15px;">gem install bootstrap -v 5.1.1</p>
+                <p style="padding: 15px;">gem install HuiCSS -v 5.1.1</p>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
                 Официальные темы
               </p>
               <p class="hui-sup-header">
-                Поднимите HuiCss на новый уровень с премиальными темами с официального магазина Bootstrap Themes.
+                Поднимите HuiCss на новый уровень с премиальными темами с официального магазина HuiCSS Themes.
               </p>
               <p class="hui-sub-header">
                 Темы создаются на HuiCss как собственные расширенные фреймворки, богатые новыми компонентами и плагинами, документацией и мощными инструментами сборки.

@@ -226,7 +226,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <p class="hui-header-of-block">
@@ -248,7 +248,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -256,7 +256,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -264,12 +264,12 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <p>RTL</p>
             <p>
-                Посмотрите, как работает RTL-версия Bootstrap с этими модифицированными примерами настраиваемых компонентов.
+                Посмотрите, как работает RTL-версия HuiCSS с этими модифицированными примерами настраиваемых компонентов.
             </p>
             <p>
                 Функция RTL все еще является экспериментальной и, вероятно, будет развиваться в соответствии с отзывами пользователей. Заметили что-то или хотите предложить улучшение? Откройте вопрос, мы будем рады узнать ваше мнение.
@@ -280,7 +280,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -288,7 +288,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -296,7 +296,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -304,7 +304,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">
@@ -312,7 +312,7 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <p class="hui-header-of-block">
@@ -326,15 +326,15 @@
                 Каменная кладка
             </p>
             <p>
-                Объедините возможности сетки Bootstrap и макета Masonry.
+                Объедините возможности сетки HuiCSS и макета Masonry.
             </p>
             <br />
             <hr />
             <div style="margin-left: 25px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Internet_Explorer_10%2B11_logo.svg/1200px-Internet_Explorer_10%2B11_logo.svg.png'); background-size: 100% 100%; float: left; width: 75px; height: 75px;">
             </div>
-            <p class="hui-header-of-block">Пойдите дальше с темами Bootstrap</p>
+            <p class="hui-header-of-block">Пойдите дальше с темами HuiCSS</p>
             <p class="hui-sup-header">
-                Вам нужно нечто большее, чем эти примеры? Поднимите Bootstrap на новый уровень с премиальными темами с официального магазина Bootstrap Themes. Они созданы как собственные расширенные фреймворки, богатые новыми компонентами и плагинами, документацией и мощными инструментами сборки.
+                Вам нужно нечто большее, чем эти примеры? Поднимите HuiCSS на новый уровень с премиальными темами с официального магазина HuiCSS Themes. Они созданы как собственные расширенные фреймворки, богатые новыми компонентами и плагинами, документацией и мощными инструментами сборки.
             </p>
             <button class="hui-pad-25 hui-button hui-light">Смотреть темы</button>
             <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-themes-collage.png" alt="" class="hui-picture">

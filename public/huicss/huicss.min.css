@@ -83,7 +83,6 @@ p, span, h1, h2, h3, h4, h5, h6 {
 
 .hui-aside {
     overflow-y: scroll;
-    
     width: 15%;
     float: left;
 }
@@ -103,7 +102,8 @@ p, span, h1, h2, h3, h4, h5, h6 {
 }
 
 .hui-main {
-    width: 85%;
+    margin-left: 15px;
+    width: 75%;
     float: left;
 }
 .hui-footer {
@@ -191,4 +191,53 @@ p, span, h1, h2, h3, h4, h5, h6 {
 
 .hui-theme-topic-sub-header {
     color: rgb(175, 175, 175);
+}
+
+.hui-margin-center {
+    align-self: center;
+}
+
+.hui-touch {
+    cursor: pointer;
+    display: flex;
+}
+
+.hui-search-block {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px; display: flex; justify-content: space-between;
+    width: 100%;
+    height: 25px;
+}
+
+.hui-search-field {
+    border-radius: 15px;
+    border-color: rgb(215, 215, 215);   
+}
+
+.hui-dropdown {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-color: rgb(215, 215, 215);
+}
+
+.hui-part {
+    width: 100%;
+    display: flex;
+}
+
+.hui-part-of-layout {
+    width: 35%;
+}
+
+.hui-indent {
+    padding: 15px;
+}
+
+.hui-picture-layout {
+    margin-left: 25px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Internet_Explorer_10%2B11_logo.svg/1200px-Internet_Explorer_10%2B11_logo.svg.png');
+    background-size: 100% 100%;
+    float: left;
+    width: 75px;
+    height: 75px;
 }

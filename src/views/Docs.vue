@@ -38,7 +38,7 @@
                 пакет
             </p>
             <p class="hui-sup-header">
-                Включите каждый плагин и зависимости Bootstrap JavaScript в один из двух наших пакетов. Оба bootstrap.bundle.js и bootstrap.bundle.min.js включают Popper для наших всплывающих подсказок и всплывающих окон. Для получения дополнительной информации о том, что включено в Bootstrap, см. Раздел нашего содержания.
+                Включите каждый плагин и зависимости HuiCSS JavaScript в один из двух наших пакетов. Оба HuiCSS.bundle.js и bootstrap.bundle.min.js включают Popper для наших всплывающих подсказок и всплывающих окон. Для получения дополнительной информации о том, что включено в Bootstrap, см. Раздел нашего содержания.
             </p>
             <div class="hui-editor" style="height: 215px;">
                 <p class="hui-editor-string">

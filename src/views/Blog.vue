@@ -73,7 +73,7 @@
             <div class="hui-editor">
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
                 <p class="hui-editor-string">
-                    npm i bootstrap
+                    npm i huicss
                 </p>
             </div>
             <p>
@@ -83,7 +83,7 @@
                 Поддержи команду
             </p>
             <p>
-                Посетите нашу страницу Open Collective или профили членов нашей команды на GitHub, чтобы помочь разработчикам, участвующим в разработке Bootstrap.
+                Посетите нашу страницу Open Collective или профили членов нашей команды на GitHub, чтобы помочь разработчикам, участвующим в разработке HuiCSS.
             </p>
             <p>
                 Примеры GitHub Twitter О
