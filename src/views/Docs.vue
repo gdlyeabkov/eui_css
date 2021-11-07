@@ -23,8 +23,10 @@
                 Скопируйте и вставьте таблицу стилей в свой перед всеми другими таблицами стилей, чтобы загрузить наш CSS.
             </p>
             <div class="hui-editor" style="height: 115px;">
+                <!-- link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><br /> -->
                 <p class="hui-editor-string">
-                    link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><br/>
+                    {{ '<\link href="https://huicss.herokuapp.com/api/cdn/hui.min.css" rel="stylesheet"' }} />
+                    <!-- {{ '<\link href="http://localhost:4000/api/cdn/hui.min.css" rel="stylesheet"' }} /> -->
                 </p>
                 <button class="hui-editor-btn hui-button  hui-light">копия</button>
             </div>

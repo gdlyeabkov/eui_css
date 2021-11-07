@@ -39,8 +39,40 @@ app.get('/home', (req, res)=>{
 
 })
 
+app.get('/api/download', async (req, res) => {
+    
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Access-Token, X-Socket-ID, Content-Type");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE");
+    
+    await res.download(path.join(__dirname, `public/huicss/huicss.min.css`), `huicss.min.css`, function (err) {
+        if (err) {
+            //error to download file
+            return res.json({ "status": "error to download file" })
+        } else {
+            return res.redirect(`http://huicss.herokuapp.com/`)
+            // return res.redirect(`http://localhost:8080/`)
+        }
+    })
+
+})
+
+app.get('/api/cdn/hui.min.css', (req, res) => {
+    
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Access-Token, X-Socket-ID, Content-Type");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE");
+    
+    return res.sendFile(__dirname + `/public/huicss/huicss.min.css`)
+
+})
+
 app.get('**', (req, res) => {
+    
     return res.redirect(`/?redirectroute=${req.path}`)
+
 })
 
 const port = process.env.PORT || 8080

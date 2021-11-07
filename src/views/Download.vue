@@ -54,7 +54,7 @@
             <p>
                 Сюда не входят документация, исходные файлы или любые дополнительные зависимости JavaScript, такие как Popper.
             </p>
-            <button class="hui-button  hui-dark">Скачать</button>
+            <button class="hui-button  hui-dark" @click="downloadLibrary()">Скачать</button>
             <p class="hui-header-of-block">
                 Исходные файлы
             </p>
@@ -199,6 +199,12 @@ import HuiFooter from "@/components/HuiFooter.vue"
 
 export default {
     name: 'Download',
+    methods: {
+        downloadLibrary() {
+            // window.location = 'http://localhost:4000/api/download'
+            window.location = 'https://huicss.herokuapp.com/api/download'
+        }
+    },
     components: {
         HuiHeader,
         HuiFooter
