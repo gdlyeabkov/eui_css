@@ -1,7 +1,7 @@
 <template>
     <div>
-        <HuiHeader />
-        <div class="hui-aside">
+        <eui_cssHeader />
+        <div class="eui_css-aside">
             <div @click="" style="display: flex;">
                 <span v-if="true" style="align-self: center;" class="material-icons">
                     chevron_right
@@ -9,35 +9,35 @@
                 <span v-else style="align-self: center;" class="material-icons">
                     expand_more
                 </span>
-                <p class="hui-aside-link">Примеры</p>
+                <p class="eui_css-aside-link">Примеры</p>
             </div>
             <div style="display: flex;">
                 <span style="align-self: center;" class="material-icons">
                     chevron_right
                 </span>
-                <p class="hui-aside-link">Кнопки</p>
+                <p class="eui_css-aside-link">Кнопки</p>
             </div>
             <div style="display: flex;">
                 <span style="align-self: center;" class="material-icons">
                     chevron_right
                 </span>
-                <p class="hui-aside-link">Хедеры</p>
+                <p class="eui_css-aside-link">Хедеры</p>
             </div>
             <div style="display: flex;">
                 <span style="align-self: center;" class="material-icons">
                     chevron_right
                 </span>
-                <p class="hui-aside-link">Стили</p>
+                <p class="eui_css-aside-link">Стили</p>
             </div>
         </div>
-        <div class="hui-main">
-            <p class="hui-header-of-block">
+        <div class="eui_css-main">
+            <p class="eui_css-header-of-block">
                 Скачать
             </p>
             <p>
                 Загрузите Bootstrap, чтобы получить скомпилированные CSS и JavaScript, исходный код или включить его в свои любимые менеджеры пакетов, такие как npm, RubyGems и другие.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 Скомпилированный CSS и JS
             </p>
             <p>
@@ -54,8 +54,8 @@
             <p>
                 Сюда не входят документация, исходные файлы или любые дополнительные зависимости JavaScript, такие как Popper.
             </p>
-            <button class="hui-button  hui-dark" @click="downloadLibrary()">Скачать</button>
-            <p class="hui-header-of-block">
+            <button class="eui_css-button  eui_css-dark" @click="downloadLibrary()">Скачать</button>
+            <p class="eui_css-header-of-block">
                 Исходные файлы
             </p>
             <p>
@@ -70,23 +70,23 @@
             <p>
                 Should you require our full set of build tools, they are included for developing Bootstrap and its docs, but they’re likely unsuitable for your own purposes.
             </p>
-            <button class="hui-button  hui-dark">Скачать исходники</button>
-            <p class="hui-header-of-block">
+            <button class="eui_css-button  eui_css-dark">Скачать исходники</button>
+            <p class="eui_css-header-of-block">
                 Примеры
             </p>
             <p>
                 Если вы хотите скачать и изучить наши примеры, вы можете взять уже построенные примеры:
             </p>
-            <button class="hui-button  hui-dark">Скачать исходники</button>
-            <p class="hui-header-of-block">
+            <button class="eui_css-button  eui_css-dark">Скачать исходники</button>
+            <p class="eui_css-header-of-block">
                 CDN через jsDelivr
             </p>
             <p>
                 Пропустите загрузку с помощью jsDelivr, чтобы предоставить вашему проекту кешированную версию скомпилированных CSS и JS Bootstrap.
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><br/>
                     script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">/script><br/>
                 </p>
@@ -94,28 +94,28 @@
             <p>
                 Если вы используете наш скомпилированный JavaScript и предпочитаете включать Popper отдельно, добавьте Popper перед нашим JS, желательно через CDN.
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">/script><br/>
                     script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">/script><br/>
                 </p>
             </div>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 Менеджеры пакетов
             </p>
             <p>
                 Загрузите исходные файлы Bootstrap практически в любой проект с помощью некоторых из самых популярных менеджеров пакетов. Независимо от менеджера пакетов, Bootstrap потребует компилятор Sass и Autoprefixer для настройки, соответствующей нашим официальным скомпилированным версиям.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 npm
             </p>
             <p>
                 Установите Bootstrap в свои приложения на Node.js с пакетом npm:
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     npm install bootstrap
                 </p>
             </div>
@@ -134,43 +134,43 @@
             <p>
                 Начните работу с Bootstrap через npm в нашем стартовом проекте! Перейдите в репозиторий шаблонов twbs / bootstrap-npm-starter, чтобы узнать, как создать и настроить Bootstrap в своем собственном проекте npm. Включает компилятор Sass, Autoprefixer, Stylelint, PurgeCSS и значки начальной загрузки.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 yarn
             </p>
             <p>
                 Установите Bootstrap в свои приложения на Node.js с пакетом yarn:
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     yarn add bootstrap
                 </p>
             </div>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 RubyGems
             </p>
             <p>
                 Установите Bootstrap в свои приложения Ruby с помощью Bundler (рекомендуется) и RubyGems, добавив следующую строку в свой Gemfile:
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     gem 'bootstrap', '~> 5.1.1'
                 </p>
             </div>
             <p>
                 В качестве альтернативы, если вы не используете Bundler, вы можете установить гем, выполнив следующую команду:
             </p>
-            <div class="hui-editor">
-               <button class="hui-editor-btn hui-button  hui-light">копия</button> 
-                <p class="hui-editor-string">
+            <div class="eui_css-editor">
+               <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button> 
+                <p class="eui_css-editor-string">
                     gem install bootstrap -v 5.1.1
                 </p>
             </div>
             <p>
                 См. README драгоценного камня для получения дополнительной информации.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 Composer
             </p>
             <p>
@@ -182,32 +182,32 @@
             <p>
                 См. README драгоценного камня для получения дополнительной информации.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 NuGet
             </p>
             <p>
                 Если вы разрабатываете в .NET, вы также можете установить и управлять CSS или Sass и JavaScript Bootstrap с помощью NuGet:
             </p>
         </div>
-        <HuiFooter />
+        <eui_cssFooter />
     </div>
 </template>
 
 <script>
-import HuiHeader from "@/components/HuiHeader.vue"
-import HuiFooter from "@/components/HuiFooter.vue"
+import eui_cssHeader from "@/components/eui_cssHeader.vue"
+import eui_cssFooter from "@/components/eui_cssFooter.vue"
 
 export default {
     name: 'Download',
     methods: {
         downloadLibrary() {
             // window.location = 'http://localhost:4000/api/download'
-            window.location = 'https://huicss.herokuapp.com/api/download'
+            window.location = 'https://eui_csscss.herokuapp.com/api/download'
         }
     },
     components: {
-        HuiHeader,
-        HuiFooter
+        eui_cssHeader,
+        eui_cssFooter
     }
 }
 </script>

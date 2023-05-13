@@ -46,26 +46,24 @@ app.get('/api/download', async (req, res) => {
     res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Access-Token, X-Socket-ID, Content-Type");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE");
     
-    await res.download(path.join(__dirname, `public/huicss/huicss.min.css`), `huicss.min.css`, function (err) {
+    await res.download(path.join(__dirname, `public/eui_css/eui_css.min.css`), `eui_csscss.min.css`, function (err) {
         if (err) {
-            //error to download file
             return res.json({ "status": "error to download file" })
         } else {
-            return res.redirect(`http://huicss.herokuapp.com/`)
-            // return res.redirect(`http://localhost:8080/`)
+            return res.redirect(`http://eui_css.herokuapp.com/`)
         }
     })
 
 })
 
-app.get('/api/cdn/hui.min.css', (req, res) => {
+app.get('/api/cdn/eui_css.min.css', (req, res) => {
     
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Credentials', true);
     res.setHeader("Access-Control-Allow-Headers", "X-Requested-With, X-Access-Token, X-Socket-ID, Content-Type");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, PATCH, DELETE");
     
-    return res.sendFile(__dirname + `/public/huicss/huicss.min.css`)
+    return res.sendFile(__dirname + `/public/eui_csscss/eui_csscss.min.css`)
 
 })
 
@@ -76,6 +74,5 @@ app.get('**', (req, res) => {
 })
 
 const port = process.env.PORT || 8080
-// const port = 4000
 
 app.listen(port)

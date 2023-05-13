@@ -1,28 +1,28 @@
 <template>
-  <div class="hui-header">
-    <p @click="$router.push({ name: 'Home' })" class="hui-active hui-header-link">
-      huiCSS
+  <div class="eui_css-header">
+    <p @click="$router.push({ name: 'Home' })" class="eui_css-active eui_css-header-link">
+      eui_cssCSS
     </p>
-    <div class="hui-header-link-container">
-      <p @click="$router.push({ name: 'Examples' })" class="hui-header-link">
+    <div class="eui_css-header-link-container">
+      <p @click="$router.push({ name: 'Examples' })" class="eui_css-header-link">
         Примеры
       </p>
-      <p @click="$router.push({ name: 'Docs' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Docs' })" class="eui_css-header-link">
         Документы
       </p>
-      <p @click="$router.push({ name: 'Download' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Download' })" class="eui_css-header-link">
         Скачать
       </p>
-      <p @click="$router.push({ name: 'Themes' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Themes' })" class="eui_css-header-link">
         Темы
       </p>
-      <p @click="$router.push({ name: 'Icons' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Icons' })" class="eui_css-header-link">
         Иконки
       </p>
-      <p @click="$router.push({ name: 'Home' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Home' })" class="eui_css-header-link">
         Домой
       </p>
-      <p @click="$router.push({ name: 'Blog' })" class="hui-header-link">
+      <p @click="$router.push({ name: 'Blog' })" class="eui_css-header-link">
         Блог
       </p>
     </div>
@@ -31,6 +31,6 @@
 
 <script>
 export default {
-    name: "HuiHeader"
+    name: "eui_cssHeader"
 }
 </script>

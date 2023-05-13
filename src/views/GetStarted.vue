@@ -1,25 +1,25 @@
 <template>
     <div>
-        <HuiHeader />
-        <div class="hui-aside">
-            <p class="hui-aside-link">Примеры</p>
-            <p class="hui-aside-link">Кнопки</p>
-            <p class="hui-aside-link">Хедеры</p>
-            <p class="hui-aside-link">Стили</p>
+        <eui_cssHeader />
+        <div class="eui_css-aside">
+            <p class="eui_css-aside-link">Примеры</p>
+            <p class="eui_css-aside-link">Кнопки</p>
+            <p class="eui_css-aside-link">Хедеры</p>
+            <p class="eui_css-aside-link">Стили</p>
         </div>
-        <HuiFooter />
+        <eui_cssFooter />
     </div>
 </template>
 
 <script>
-import HuiHeader from "@/components/HuiHeader.vue"
-import HuiFooter from "@/components/HuiFooter.vue"
+import eui_cssHeader from "@/components/eui_cssHeader.vue"
+import eui_cssFooter from "@/components/eui_cssFooter.vue"
 
 export default {
     name: 'Download',
     components: {
-        HuiHeader,
-        HuiFooter
+        eui_cssHeader,
+        eui_cssFooter
     }
 }
 </script>

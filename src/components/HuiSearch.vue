@@ -1,16 +1,16 @@
 <template>
-  <div class="hui-search-block">
-    <input type="text" placeholder="" class="hui-search-field" />
-    <select class="hui-dropdown">
-        <option value="HuiCSS 1">HuiCSS 1</option>
-        <option value="HuiCSS 2">HuiCSS 2</option>
-        <option value="HuiCSS 3">HuiCSS 3</option>
+  <div class="eui_css-search-block">
+    <input type="text" placeholder="" class="eui_css-search-field" />
+    <select class="eui_css-dropdown">
+        <option value="eui_cssCSS 1">eui_cssCSS 1</option>
+        <option value="eui_cssCSS 2">eui_cssCSS 2</option>
+        <option value="eui_cssCSS 3">eui_cssCSS 3</option>
     </select>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'HuiSearch'
+    name: 'eui_cssSearch'
 }
 </script>

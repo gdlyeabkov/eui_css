@@ -1,17 +1,17 @@
 <template>
     <div>
-        <HuiHeader />
+        <eui_cssHeader />
         <div style="text-align: center;">
             <div style="text-align: center; background-color: rgb(0, 100, 255); color: rgb(255, 255, 255);">
-                <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-icons.png" alt="" class="hui-picture">
-                <p class="hui-header-of-block">
-                    Блог HuiCSS
+                <img src="https://getbootstrap.com/docs/5.1/assets/img/bootstrap-icons.png" alt="" class="eui_css-picture">
+                <p class="eui_css-header-of-block">
+                    Блог eui_cssCSS
                 </p>
                 <p>
-                    Новости и объявления обо всем, что касается HuiCSS, включая новые выпуски, темы HuiCSS и значки HuiCSS.
+                    Новости и объявления обо всем, что касается eui_cssCSS, включая новые выпуски, темы eui_cssCSS и значки eui_cssCSS.
                 </p>
             </div>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 Журнал изменений
             </p>
             <ul>
@@ -64,16 +64,16 @@
             <p>
                 Посетите GitHub, чтобы ознакомиться с полным списком проблем и запросов на вытягивание в версии 5.0.1. Вы также можете просмотреть доску проекта v5.0.1.
             </p>
-            <p class="hui-header-of-block">
+            <p class="eui_css-header-of-block">
                 Получите релиз
             </p>
             <p>
-                Посетите https://herokuapp.huicss.com для получения последней информации. Он также перенесен в npm:
+                Посетите https://herokuapp.eui_csscss.com для получения последней информации. Он также перенесен в npm:
             </p>
-            <div class="hui-editor">
-                <button class="hui-editor-btn hui-button  hui-light">копия</button>
-                <p class="hui-editor-string">
-                    npm i huicss
+            <div class="eui_css-editor">
+                <button class="eui_css-editor-btn eui_css-button  eui_css-light">копия</button>
+                <p class="eui_css-editor-string">
+                    npm i eui_csscss
                 </p>
             </div>
             <p>
@@ -83,31 +83,31 @@
                 Поддержи команду
             </p>
             <p>
-                Посетите нашу страницу Open Collective или профили членов нашей команды на GitHub, чтобы помочь разработчикам, участвующим в разработке HuiCSS.
+                Посетите нашу страницу Open Collective или профили членов нашей команды на GitHub, чтобы помочь разработчикам, участвующим в разработке eui_cssCSS.
             </p>
             <p>
                 Примеры GitHub Twitter О
             </p>
             <p>
-                Разработан и построен с любовью в мире командой HuiCSS с помощью наших участников.
+                Разработан и построен с любовью в мире командой eui_cssCSS с помощью наших участников.
             </p>
             <p>
-                В настоящее время v5.1.0. Блог HuiCSS является открытым исходным кодом под лицензией MIT.
+                В настоящее время v5.1.0. Блог eui_cssCSS является открытым исходным кодом под лицензией MIT.
             </p>
         </div>
-        <HuiFooter />
+        <eui_cssFooter />
     </div>
 </template>
 
 <script>
-import HuiHeader from "@/components/HuiHeader.vue"
-import HuiFooter from "@/components/HuiFooter.vue"
+import eui_cssHeader from "@/components/eui_cssHeader.vue"
+import eui_cssFooter from "@/components/eui_cssFooter.vue"
 
 export default {
     name: 'Download',
     components: {
-        HuiHeader,
-        HuiFooter
+        eui_cssHeader,
+        eui_cssFooter
     }
 }
 </script>

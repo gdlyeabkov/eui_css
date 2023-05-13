@@ -1,4 +1,4 @@
-# huicss
+# eui_css
 
 ## Project setup
 ```

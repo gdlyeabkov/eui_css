@@ -6,7 +6,7 @@ p, span, h1, h2, h3, h4, h5, h6 {
     font-family: "SegoePrint"
 }
 
-.hui-button {
+.eui_css-button {
     width: 175px;
     height: 45px;
     border-width: 2px;
@@ -17,51 +17,48 @@ p, span, h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.hui-dark {
+.eui_css-dark {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border-color: rgb(145, 145, 145);
 }
 
-.hui-light {
+.eui_css-light {
     color: rgb(145, 145, 255);
     background-color: rgb(255, 255, 255);
     border-color: rgb(145, 145, 255);
 }
 
-.hui-light:active {
+.eui_css-light:active {
     background-color: rgb(235, 235, 235);
 }
 
-.hui-error {
+.eui_css-error {
     color: rgb(255, 0, 0);
     background-color: rgb(255, 145, 145);
     border-color: rgb(200, 0, 0);
 }
 
-.hui-happy {
+.eui_css-happy {
     color: rgb(225, 255, 255);
     background-color: rgb(0, 175, 0);
     border-color: rgb(0, 0, 175);
 }
 
-.hui-round-button {
+.eui_css-round-button {
     width: 45px;
     height: 45px;
     border: 10px inset rgb(145, 145, 145);
     border-radius: 50%;
 }
 
-.hui-header {
-    /* position: fixed; */
+.eui_css-header {
     width: 100%;
     height: 75px;
-    /* top: 0px;
-    left: 0px; */
     background-color: rgb(200, 200, 255);
 }
 
-.hui-header-link-container {
+.eui_css-header-link-container {
     position: relative;
     top: 0px;
     left: 50%;
@@ -73,7 +70,7 @@ p, span, h1, h2, h3, h4, h5, h6 {
     
 }
 
-.hui-header-link {
+.eui_css-header-link {
     text-shadow: 0px 0px 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 14px;
@@ -81,13 +78,13 @@ p, span, h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.hui-aside {
+.eui_css-aside {
     overflow-y: scroll;
     width: 15%;
     float: left;
 }
 
-.hui-aside-link {
+.eui_css-aside-link {
     color: rgb(100, 175, 255);
     margin: 15px 0px;
     text-align: center;
@@ -95,25 +92,25 @@ p, span, h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.hui-active {
+.eui_css-active {
     color: rgb(0, 0, 255);
     font-weight: bolder;
     font-size: 24px;
 }
 
-.hui-main {
+.eui_css-main {
     margin-left: 15px;
     width: 75%;
     float: left;
 }
-.hui-footer {
+.eui_css-footer {
     clear: both;
     width: 100%;
     height: 175px;
     background-color: rgb(250, 0, 255);
 }
 
-.hui-footer-links-bar {
+.eui_css-footer-links-bar {
     width: 100%;
     height: 100%;
     display: flex;
@@ -121,119 +118,119 @@ p, span, h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.hui-footer-link-bar {
+.eui_css-footer-link-bar {
     display: flex;
     flex-direction: column;
     margin: 0px 25px;
 }
 
-.hui-footer-link-header {
+.eui_css-footer-link-header {
     font-weight: bolder;
     font-size: 18px !important;
     color: rgb(0, 0, 255) !important;
     margin-left: -15px !important;
 }
 
-.hui-footer-link {
+.eui_css-footer-link {
     color: rgb(255, 255, 255);
     font-size: 14px;
     margin: 5px 0px;
 }
 
-.hui-editor {
+.eui_css-editor {
     border-radius: 15px;
     margin: 5px;
     background-color: rgb(235, 235, 235);    
 }
 
-.hui-editor-string {
+.eui_css-editor-string {
     padding: 15px;
     width: 500px;
 }
 
-.hui-editor-btn {
+.eui_css-editor-btn {
     font-size: 8px;
     float: right;
     width: 35px;
     height: 15px;
 }
 
-.hui-header-of-block {
+.eui_css-header-of-block {
     font-size: 42px;
     font-weight: bolder;
 }
 
-.hui-desc-of-block {
+.eui_css-desc-of-block {
     font-size: 24px;
     color: rgb(175, 175, 175);
 }
 
-.hui-sub-header {
+.eui_css-sub-header {
     font-size: 14px;
 }
 
-.hui-sup-header {
+.eui_css-sup-header {
     font-size: 18px;
 }
 
-.hui-pad-25 {
+.eui_css-pad-25 {
     margin-top: 25px;
 }
 
-.hui-picture {
+.eui_css-picture {
     width: 375px;
     margin-left: 175px;
 }
 
-.hui-theme-topic-header {
+.eui_css-theme-topic-header {
     font-weight: bolder;
 }
 
-.hui-theme-topic-sub-header {
+.eui_css-theme-topic-sub-header {
     color: rgb(175, 175, 175);
 }
 
-.hui-margin-center {
+.eui_css-margin-center {
     align-self: center;
 }
 
-.hui-touch {
+.eui_css-touch {
     cursor: pointer;
     display: flex;
 }
 
-.hui-search-block {
+.eui_css-search-block {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px; display: flex; justify-content: space-between;
     width: 100%;
     height: 25px;
 }
 
-.hui-search-field {
+.eui_css-search-field {
     border-radius: 15px;
     border-color: rgb(215, 215, 215);   
 }
 
-.hui-dropdown {
+.eui_css-dropdown {
     padding: 5px 15px;
     border-radius: 5px;
     border-color: rgb(215, 215, 215);
 }
 
-.hui-part {
+.eui_css-part {
     width: 100%;
     display: flex;
 }
 
-.hui-part-of-layout {
+.eui_css-part-of-layout {
     width: 35%;
 }
 
-.hui-indent {
+.eui_css-indent {
     padding: 15px;
 }
 
-.hui-picture-layout {
+.eui_css-picture-layout {
     margin-left: 25px;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Internet_Explorer_10%2B11_logo.svg/1200px-Internet_Explorer_10%2B11_logo.svg.png');
     background-size: 100% 100%;
